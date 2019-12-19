@@ -1,0 +1,61 @@
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+    background: lightgray;
+}
+
+.welcome, .instruct {
+    font-weight: bold;
+    font-size: 4rem; 
+    text-align: center;
+    font-variant: small-caps;
+    margin: 2rem .5rem; 
+}
+
+.status, .current {
+    display: flex; 
+    align-content: center; 
+    justify-content: center;
+}
+
+.scoreboard, .timer {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem 5rem;
+    font-size: 1.5rem;
+    font-variant: small-caps; 
+    padding: 2rem .5rem 4rem;
+    width: 10rem; 
+    text-align: center; 
+    background: rgba(0,0,0,0.2); 
+}
+
+#playerChoice, #cpuChoice, #playerScore, #cpuScore {
+    font-weight: bold; 
+}
+
+.selection {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem 5rem;
+    font-size: 1.5rem;
+    font-variant: small-caps; 
+    padding: 1rem .5rem 1rem;
+    width: 10rem; 
+    text-align: center; 
+    background: rgba(0,0,0,0.2); 
+}
+
+.options {
+    display: flex;
+    min-height: 25vh;
+    align-items: center;
+    justify-content: center;
+    background: white; 
+}
+
+img {
+    height: 15rem;
+    padding: 3rem;
+    margin: 3rem;   
+}
